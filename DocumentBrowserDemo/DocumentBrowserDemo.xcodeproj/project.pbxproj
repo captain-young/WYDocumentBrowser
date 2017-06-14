@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E54ECB1EF0E67000F97B4C /* Beyond - 真的爱你.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 18E54ECA1EF0E67000F97B4C /* Beyond - 真的爱你.mp3 */; };
+		18E54ECD1EF0E6BD00F97B4C /* DocumentBrowser.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E54ECC1EF0E6BD00F97B4C /* DocumentBrowser.gif */; };
+		18E54ECF1EF0E6FE00F97B4C /* aa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18E54ECE1EF0E6FE00F97B4C /* aa.jpg */; };
+		18E54EDB1EF1179C00F97B4C /* ZPDFPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E54ED41EF1179C00F97B4C /* ZPDFPageController.m */; };
+		18E54EDC1EF1179C00F97B4C /* ZPDFPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E54ED61EF1179C00F97B4C /* ZPDFPageModel.m */; };
+		18E54EDD1EF1179C00F97B4C /* ZPDFReaderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E54ED81EF1179C00F97B4C /* ZPDFReaderController.m */; };
+		18E54EDE1EF1179C00F97B4C /* ZPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E54EDA1EF1179C00F97B4C /* ZPDFView.m */; };
+		18E54EE01EF1567200F97B4C /* 4AC51038CA4411EED492019D6EA79A50.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 18E54EDF1EF1567200F97B4C /* 4AC51038CA4411EED492019D6EA79A50.mp4 */; };
+		18F45BC01EEFD8ED00B8E8FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BBF1EEFD8ED00B8E8FE /* main.m */; };
+		18F45BC31EEFD8ED00B8E8FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BC21EEFD8ED00B8E8FE /* AppDelegate.m */; };
+		18F45BC61EEFD8ED00B8E8FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BC51EEFD8ED00B8E8FE /* ViewController.m */; };
+		18F45BC91EEFD8ED00B8E8FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BC71EEFD8ED00B8E8FE /* Main.storyboard */; };
+		18F45BCB1EEFD8ED00B8E8FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BCA1EEFD8ED00B8E8FE /* Assets.xcassets */; };
+		18F45BCE1EEFD8ED00B8E8FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BCC1EEFD8ED00B8E8FE /* LaunchScreen.storyboard */; };
+		18F45BD91EEFD8EE00B8E8FE /* DocumentBrowserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BD81EEFD8EE00B8E8FE /* DocumentBrowserDemoTests.m */; };
+		18F45BE41EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BE31EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.m */; };
+		18F45BF81EEFD9E700B8E8FE /* H5,JS资源.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BF21EEFD9E700B8E8FE /* H5,JS资源.txt */; };
+		18F45BF91EEFD9E700B8E8FE /* Xcode快捷键.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BF31EEFD9E700B8E8FE /* Xcode快捷键.rtf */; };
+		18F45BFA1EEFD9E700B8E8FE /* 大话Swift 3.0（上）.key in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BF41EEFD9E700B8E8FE /* 大话Swift 3.0（上）.key */; };
+		18F45BFD1EEFD9E700B8E8FE /* 阿里巴巴java开发手册.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 18F45BF71EEFD9E700B8E8FE /* 阿里巴巴java开发手册.pdf */; };
+		18F45C001EEFDA9D00B8E8FE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F45BFF1EEFDA9D00B8E8FE /* WebViewController.m */; };
+		6F2F380D1EF0241B00CD5409 /* excel操作大全.doc in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F380C1EF0241B00CD5409 /* excel操作大全.doc */; };
+		6F2F380F1EF0257B00CD5409 /* 华为推荐书目.xls in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F380E1EF0257B00CD5409 /* 华为推荐书目.xls */; };
+		6F2F38121EF026A700CD5409 /* 抵押贷款.numbers in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F38101EF026A700CD5409 /* 抵押贷款.numbers */; };
+		6F2F38131EF026A700CD5409 /* Page.pages in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F38111EF026A700CD5409 /* Page.pages */; };
+		6F2F38151EF02CA300CD5409 /* iOS.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F38141EF02CA300CD5409 /* iOS.ppt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F45BD51EEFD8ED00B8E8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F45BB31EEFD8ED00B8E8FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F45BBA1EEFD8ED00B8E8FE;
+			remoteInfo = DocumentBrowserDemo;
+		};
+		18F45BE01EEFD8EE00B8E8FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F45BB31EEFD8ED00B8E8FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F45BBA1EEFD8ED00B8E8FE;
+			remoteInfo = DocumentBrowserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E54ECA1EF0E67000F97B4C /* Beyond - 真的爱你.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beyond - 真的爱你.mp3"; sourceTree = "<group>"; };
+		18E54ECC1EF0E6BD00F97B4C /* DocumentBrowser.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DocumentBrowser.gif; sourceTree = "<group>"; };
+		18E54ECE1EF0E6FE00F97B4C /* aa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aa.jpg; sourceTree = "<group>"; };
+		18E54ED31EF1179C00F97B4C /* ZPDFPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageController.h; sourceTree = "<group>"; };
+		18E54ED41EF1179C00F97B4C /* ZPDFPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageController.m; sourceTree = "<group>"; };
+		18E54ED51EF1179C00F97B4C /* ZPDFPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFPageModel.h; sourceTree = "<group>"; };
+		18E54ED61EF1179C00F97B4C /* ZPDFPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFPageModel.m; sourceTree = "<group>"; };
+		18E54ED71EF1179C00F97B4C /* ZPDFReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFReaderController.h; sourceTree = "<group>"; };
+		18E54ED81EF1179C00F97B4C /* ZPDFReaderController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFReaderController.m; sourceTree = "<group>"; };
+		18E54ED91EF1179C00F97B4C /* ZPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPDFView.h; sourceTree = "<group>"; };
+		18E54EDA1EF1179C00F97B4C /* ZPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPDFView.m; sourceTree = "<group>"; };
+		18E54EDF1EF1567200F97B4C /* 4AC51038CA4411EED492019D6EA79A50.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4AC51038CA4411EED492019D6EA79A50.mp4; sourceTree = "<group>"; };
+		18F45BBB1EEFD8ED00B8E8FE /* DocumentBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocumentBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F45BBF1EEFD8ED00B8E8FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F45BC11EEFD8ED00B8E8FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F45BC21EEFD8ED00B8E8FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F45BC41EEFD8ED00B8E8FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F45BC51EEFD8ED00B8E8FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F45BC81EEFD8ED00B8E8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F45BCA1EEFD8ED00B8E8FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F45BCD1EEFD8ED00B8E8FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F45BCF1EEFD8ED00B8E8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F45BD41EEFD8ED00B8E8FE /* DocumentBrowserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentBrowserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F45BD81EEFD8EE00B8E8FE /* DocumentBrowserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserDemoTests.m; sourceTree = "<group>"; };
+		18F45BDA1EEFD8EE00B8E8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F45BDF1EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F45BE31EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserDemoUITests.m; sourceTree = "<group>"; };
+		18F45BE51EEFD8EE00B8E8FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F45BF21EEFD9E700B8E8FE /* H5,JS资源.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "H5,JS资源.txt"; sourceTree = "<group>"; };
+		18F45BF31EEFD9E700B8E8FE /* Xcode快捷键.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Xcode快捷键.rtf"; sourceTree = "<group>"; };
+		18F45BF41EEFD9E700B8E8FE /* 大话Swift 3.0（上）.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "大话Swift 3.0（上）.key"; sourceTree = "<group>"; };
+		18F45BF71EEFD9E700B8E8FE /* 阿里巴巴java开发手册.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "阿里巴巴java开发手册.pdf"; sourceTree = "<group>"; };
+		18F45BFE1EEFDA9D00B8E8FE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		18F45BFF1EEFDA9D00B8E8FE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		6F2F380C1EF0241B00CD5409 /* excel操作大全.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "excel操作大全.doc"; sourceTree = "<group>"; };
+		6F2F380E1EF0257B00CD5409 /* 华为推荐书目.xls */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华为推荐书目.xls"; sourceTree = "<group>"; };
+		6F2F38101EF026A700CD5409 /* 抵押贷款.numbers */ = {isa = PBXFileReference; lastKnownFileType = file; path = "抵押贷款.numbers"; sourceTree = "<group>"; };
+		6F2F38111EF026A700CD5409 /* Page.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = Page.pages; sourceTree = "<group>"; };
+		6F2F38141EF02CA300CD5409 /* iOS.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = iOS.ppt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F45BB81EEFD8ED00B8E8FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BD11EEFD8ED00B8E8FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BDC1EEFD8EE00B8E8FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E54ED21EF1178D00F97B4C /* PDFBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				18E54ED31EF1179C00F97B4C /* ZPDFPageController.h */,
+				18E54ED41EF1179C00F97B4C /* ZPDFPageController.m */,
+				18E54ED51EF1179C00F97B4C /* ZPDFPageModel.h */,
+				18E54ED61EF1179C00F97B4C /* ZPDFPageModel.m */,
+				18E54ED71EF1179C00F97B4C /* ZPDFReaderController.h */,
+				18E54ED81EF1179C00F97B4C /* ZPDFReaderController.m */,
+				18E54ED91EF1179C00F97B4C /* ZPDFView.h */,
+				18E54EDA1EF1179C00F97B4C /* ZPDFView.m */,
+			);
+			path = PDFBrowser;
+			sourceTree = "<group>";
+		};
+		18F45BB21EEFD8ED00B8E8FE = {
+			isa = PBXGroup;
+			children = (
+				18F45BF11EEFD9E700B8E8FE /* Resource */,
+				18F45BBD1EEFD8ED00B8E8FE /* DocumentBrowserDemo */,
+				18F45BD71EEFD8ED00B8E8FE /* DocumentBrowserDemoTests */,
+				18F45BE21EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests */,
+				18F45BBC1EEFD8ED00B8E8FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F45BBC1EEFD8ED00B8E8FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F45BBB1EEFD8ED00B8E8FE /* DocumentBrowserDemo.app */,
+				18F45BD41EEFD8ED00B8E8FE /* DocumentBrowserDemoTests.xctest */,
+				18F45BDF1EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F45BBD1EEFD8ED00B8E8FE /* DocumentBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				18F45BC11EEFD8ED00B8E8FE /* AppDelegate.h */,
+				18F45BC21EEFD8ED00B8E8FE /* AppDelegate.m */,
+				18F45BC41EEFD8ED00B8E8FE /* ViewController.h */,
+				18F45BC51EEFD8ED00B8E8FE /* ViewController.m */,
+				18F45BFE1EEFDA9D00B8E8FE /* WebViewController.h */,
+				18F45BFF1EEFDA9D00B8E8FE /* WebViewController.m */,
+				18E54ED21EF1178D00F97B4C /* PDFBrowser */,
+				18F45BC71EEFD8ED00B8E8FE /* Main.storyboard */,
+				18F45BCA1EEFD8ED00B8E8FE /* Assets.xcassets */,
+				18F45BCC1EEFD8ED00B8E8FE /* LaunchScreen.storyboard */,
+				18F45BCF1EEFD8ED00B8E8FE /* Info.plist */,
+				18F45BBE1EEFD8ED00B8E8FE /* Supporting Files */,
+			);
+			path = DocumentBrowserDemo;
+			sourceTree = "<group>";
+		};
+		18F45BBE1EEFD8ED00B8E8FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F45BBF1EEFD8ED00B8E8FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F45BD71EEFD8ED00B8E8FE /* DocumentBrowserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F45BD81EEFD8EE00B8E8FE /* DocumentBrowserDemoTests.m */,
+				18F45BDA1EEFD8EE00B8E8FE /* Info.plist */,
+			);
+			path = DocumentBrowserDemoTests;
+			sourceTree = "<group>";
+		};
+		18F45BE21EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F45BE31EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.m */,
+				18F45BE51EEFD8EE00B8E8FE /* Info.plist */,
+			);
+			path = DocumentBrowserDemoUITests;
+			sourceTree = "<group>";
+		};
+		18F45BF11EEFD9E700B8E8FE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18E54EDF1EF1567200F97B4C /* 4AC51038CA4411EED492019D6EA79A50.mp4 */,
+				18E54ECE1EF0E6FE00F97B4C /* aa.jpg */,
+				18E54ECC1EF0E6BD00F97B4C /* DocumentBrowser.gif */,
+				18E54ECA1EF0E67000F97B4C /* Beyond - 真的爱你.mp3 */,
+				18F45BF21EEFD9E700B8E8FE /* H5,JS资源.txt */,
+				6F2F38101EF026A700CD5409 /* 抵押贷款.numbers */,
+				6F2F38111EF026A700CD5409 /* Page.pages */,
+				18F45BF31EEFD9E700B8E8FE /* Xcode快捷键.rtf */,
+				18F45BF41EEFD9E700B8E8FE /* 大话Swift 3.0（上）.key */,
+				6F2F380C1EF0241B00CD5409 /* excel操作大全.doc */,
+				6F2F380E1EF0257B00CD5409 /* 华为推荐书目.xls */,
+				6F2F38141EF02CA300CD5409 /* iOS.ppt */,
+				18F45BF71EEFD9E700B8E8FE /* 阿里巴巴java开发手册.pdf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F45BBA1EEFD8ED00B8E8FE /* DocumentBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F45BE81EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemo" */;
+			buildPhases = (
+				18F45BB71EEFD8ED00B8E8FE /* Sources */,
+				18F45BB81EEFD8ED00B8E8FE /* Frameworks */,
+				18F45BB91EEFD8ED00B8E8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DocumentBrowserDemo;
+			productName = DocumentBrowserDemo;
+			productReference = 18F45BBB1EEFD8ED00B8E8FE /* DocumentBrowserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F45BD31EEFD8ED00B8E8FE /* DocumentBrowserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F45BEB1EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemoTests" */;
+			buildPhases = (
+				18F45BD01EEFD8ED00B8E8FE /* Sources */,
+				18F45BD11EEFD8ED00B8E8FE /* Frameworks */,
+				18F45BD21EEFD8ED00B8E8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F45BD61EEFD8ED00B8E8FE /* PBXTargetDependency */,
+			);
+			name = DocumentBrowserDemoTests;
+			productName = DocumentBrowserDemoTests;
+			productReference = 18F45BD41EEFD8ED00B8E8FE /* DocumentBrowserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F45BDE1EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F45BEE1EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemoUITests" */;
+			buildPhases = (
+				18F45BDB1EEFD8EE00B8E8FE /* Sources */,
+				18F45BDC1EEFD8EE00B8E8FE /* Frameworks */,
+				18F45BDD1EEFD8EE00B8E8FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F45BE11EEFD8EE00B8E8FE /* PBXTargetDependency */,
+			);
+			name = DocumentBrowserDemoUITests;
+			productName = DocumentBrowserDemoUITests;
+			productReference = 18F45BDF1EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F45BB31EEFD8ED00B8E8FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "White-Young";
+				TargetAttributes = {
+					18F45BBA1EEFD8ED00B8E8FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W4WU7Z59L3;
+						ProvisioningStyle = Automatic;
+					};
+					18F45BD31EEFD8ED00B8E8FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F45BBA1EEFD8ED00B8E8FE;
+					};
+					18F45BDE1EEFD8EE00B8E8FE = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18F45BBA1EEFD8ED00B8E8FE;
+					};
+				};
+			};
+			buildConfigurationList = 18F45BB61EEFD8ED00B8E8FE /* Build configuration list for PBXProject "DocumentBrowserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F45BB21EEFD8ED00B8E8FE;
+			productRefGroup = 18F45BBC1EEFD8ED00B8E8FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F45BBA1EEFD8ED00B8E8FE /* DocumentBrowserDemo */,
+				18F45BD31EEFD8ED00B8E8FE /* DocumentBrowserDemoTests */,
+				18F45BDE1EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F45BB91EEFD8ED00B8E8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E54ECF1EF0E6FE00F97B4C /* aa.jpg in Resources */,
+				6F2F38151EF02CA300CD5409 /* iOS.ppt in Resources */,
+				18F45BFD1EEFD9E700B8E8FE /* 阿里巴巴java开发手册.pdf in Resources */,
+				18F45BFA1EEFD9E700B8E8FE /* 大话Swift 3.0（上）.key in Resources */,
+				6F2F38131EF026A700CD5409 /* Page.pages in Resources */,
+				18F45BCE1EEFD8ED00B8E8FE /* LaunchScreen.storyboard in Resources */,
+				18F45BCB1EEFD8ED00B8E8FE /* Assets.xcassets in Resources */,
+				18E54EE01EF1567200F97B4C /* 4AC51038CA4411EED492019D6EA79A50.mp4 in Resources */,
+				18E54ECD1EF0E6BD00F97B4C /* DocumentBrowser.gif in Resources */,
+				6F2F38121EF026A700CD5409 /* 抵押贷款.numbers in Resources */,
+				6F2F380D1EF0241B00CD5409 /* excel操作大全.doc in Resources */,
+				18F45BF91EEFD9E700B8E8FE /* Xcode快捷键.rtf in Resources */,
+				18F45BC91EEFD8ED00B8E8FE /* Main.storyboard in Resources */,
+				18F45BF81EEFD9E700B8E8FE /* H5,JS资源.txt in Resources */,
+				18E54ECB1EF0E67000F97B4C /* Beyond - 真的爱你.mp3 in Resources */,
+				6F2F380F1EF0257B00CD5409 /* 华为推荐书目.xls in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BD21EEFD8ED00B8E8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BDD1EEFD8EE00B8E8FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F45BB71EEFD8ED00B8E8FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F45BC61EEFD8ED00B8E8FE /* ViewController.m in Sources */,
+				18E54EDB1EF1179C00F97B4C /* ZPDFPageController.m in Sources */,
+				18E54EDC1EF1179C00F97B4C /* ZPDFPageModel.m in Sources */,
+				18E54EDD1EF1179C00F97B4C /* ZPDFReaderController.m in Sources */,
+				18E54EDE1EF1179C00F97B4C /* ZPDFView.m in Sources */,
+				18F45BC31EEFD8ED00B8E8FE /* AppDelegate.m in Sources */,
+				18F45BC01EEFD8ED00B8E8FE /* main.m in Sources */,
+				18F45C001EEFDA9D00B8E8FE /* WebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BD01EEFD8ED00B8E8FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F45BD91EEFD8EE00B8E8FE /* DocumentBrowserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F45BDB1EEFD8EE00B8E8FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F45BE41EEFD8EE00B8E8FE /* DocumentBrowserDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F45BD61EEFD8ED00B8E8FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F45BBA1EEFD8ED00B8E8FE /* DocumentBrowserDemo */;
+			targetProxy = 18F45BD51EEFD8ED00B8E8FE /* PBXContainerItemProxy */;
+		};
+		18F45BE11EEFD8EE00B8E8FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F45BBA1EEFD8ED00B8E8FE /* DocumentBrowserDemo */;
+			targetProxy = 18F45BE01EEFD8EE00B8E8FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F45BC71EEFD8ED00B8E8FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F45BC81EEFD8ED00B8E8FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F45BCC1EEFD8ED00B8E8FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F45BCD1EEFD8ED00B8E8FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F45BE61EEFD8EE00B8E8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F45BE71EEFD8EE00B8E8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F45BE91EEFD8EE00B8E8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4WU7Z59L3;
+				INFOPLIST_FILE = DocumentBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F45BEA1EEFD8EE00B8E8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W4WU7Z59L3;
+				INFOPLIST_FILE = DocumentBrowserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F45BEC1EEFD8EE00B8E8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DocumentBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentBrowserDemo.app/DocumentBrowserDemo";
+			};
+			name = Debug;
+		};
+		18F45BED1EEFD8EE00B8E8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DocumentBrowserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DocumentBrowserDemo.app/DocumentBrowserDemo";
+			};
+			name = Release;
+		};
+		18F45BEF1EEFD8EE00B8E8FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DocumentBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DocumentBrowserDemo;
+			};
+			name = Debug;
+		};
+		18F45BF01EEFD8EE00B8E8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DocumentBrowserDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WhiteYoung.DocumentBrowserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DocumentBrowserDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F45BB61EEFD8ED00B8E8FE /* Build configuration list for PBXProject "DocumentBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F45BE61EEFD8EE00B8E8FE /* Debug */,
+				18F45BE71EEFD8EE00B8E8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F45BE81EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F45BE91EEFD8EE00B8E8FE /* Debug */,
+				18F45BEA1EEFD8EE00B8E8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F45BEB1EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F45BEC1EEFD8EE00B8E8FE /* Debug */,
+				18F45BED1EEFD8EE00B8E8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F45BEE1EEFD8EE00B8E8FE /* Build configuration list for PBXNativeTarget "DocumentBrowserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F45BEF1EEFD8EE00B8E8FE /* Debug */,
+				18F45BF01EEFD8EE00B8E8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F45BB31EEFD8ED00B8E8FE /* Project object */;
+}
